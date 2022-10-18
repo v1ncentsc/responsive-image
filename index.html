@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Image</title>
+</head>
+<body>
+    <main>
+        <h1>The beach is fun!</h1>
+
+        <picture>
+            <source media="(min-width: 1200px)" srcset="images/Leap-of-Faith.jpeg" />
+            <source media="(min-width: 600px)" srcset="images/Leap-of-Faith800.jpeg" />
+            <source media="(min-width: 300px)" srcset="images/Leap-of-Faith400.jpeg" />
+            <img src="images/Leap-of-Faith200.jpeg" alt="Kids having fun at the beach" />
+        </picture>
+    </main>
+</body>
+</html>
